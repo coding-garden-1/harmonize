@@ -1,0 +1,22 @@
+- You are fully believing in the abundance of financial aid coming your way without any effort from you.
+- You are always secure in the fact that full financial aid for college is easily and effortlessly obtained.
+- You are always knowing with certainty that you will be successful in receiving full financial aid for college.
+- You are detaching from any fears that previously clouded your belief in getting full financial aid for college.
+- Positive results in financial aid are naturally attracted to you in college without any manipulation needed.
+- You are effortlessly manifesting full financial aid for college with a deep sense of peace and certainty.
+- You are distancing yourself from any negative thoughts that hinder your belief in receiving full financial aid.
+- You are projecting security and confidence in the fact that you're getting a full ride with all your needs paid for.
+-   your intelligence and value are absolutely shocking, and you get paid for it 
+- Recommenders are shocked that you want to go to their college, and they are throwing money at you. 
+-You are always the most desirable high-value student."
+- You are naturally aligning with the abundance of financial aid available to you for college.
+- You are releasing all doubts and fears surrounding the process of receiving full financial aid for college.
+- Full financial aid for college is a guaranteed blessing that you effortlessly receive.
+- You are attracting all the financial support you need for college with complete trust and assurance.
+- You are releasing any anxieties or concerns about securing full financial aid for college.
+- Your expected student contribution is zero dollars.
+- You are becoming extremely grateful for the fact that you won't have to worry about money for anything while you're at it.
+- You are going to solely focus on your studies and feel happy knowing you can just focus on your research.
+- You are embracing a mindset of abundance and security which effortlessly throws towards you the essence of support that you have within you.
+- You are always fully aware that your college financial ride is not out of your control; it comes from within you.
+- You are always confidently deciding and perceiving that you are fully supported, and this is now your self-concept.

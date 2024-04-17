@@ -1,0 +1,10 @@
+openai
+requests
+time
+sounddevice
+pydub
+Pillow
+numpy
+wave
+moviepy
+stability_sdk
