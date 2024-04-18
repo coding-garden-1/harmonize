@@ -4,12 +4,12 @@ import re
 
 def generate_audio(text_content, filename):
     CHUNK_SIZE = 1024
-    url = "https://api.elevenlabs.io/v1/text-to-speech/zj5frT3wLxKuYvt8RbXj"
+    url = "https://api.elevenlabs.io/v1/text-to-speech/qurfk0sJaRdz3LpIIybi"
 
     headers = {
         "Accept": "audio/mpeg",
         "Content-Type": "application/json",
-        "xi-api-key": "8d029d3ecd6b8ac5521cd62cc6d2ca45"
+        "xi-api-key": "6730e95ac0ce0aaada5714c299f58a04"
     }
 
     data = {

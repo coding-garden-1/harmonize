@@ -1,0 +1,7 @@
+python -m stability_sdk generate Photorealistic caucasian light-skinned woman smiling brightly as she effortlessly crosses the finish line of a marathon race, surrounded by cheering spectators.  
+python -m stability_sdk generate Photorealistic caucasian light-skinned woman confidently presenting her work in a boardroom meeting, with a posture that exudes self-assuredness and professionalism.  
+python -m stability_sdk generate Photorealistic caucasian light-skinned woman standing in a dark room, with a spotlight shining on her, symbolizing the support she receives from her subconscious mind.  
+python -m stability_sdk generate Photorealistic caucasian light-skinned woman confidently following an intuitive decision, shown by her choosing the correct path at a crossroads with a glowing arrow pointing the way.  
+python -m stability_sdk generate Photorealistic caucasian light-skinned woman surrounded by a circle of diverse friends laughing and enjoying a picnic in a beautiful park, representing positive experiences.  
+python -m stability_sdk generate Photorealistic caucasian light-skinned woman holding a golden key to unlock a door that leads to a room filled with symbols of success and prosperity.  
+python -m stability_sdk generate Photorealistic caucasian light-skinned woman standing on a mountaintop at sunrise, casting a radiant glow that lights up the landscape below, symbolizing shining her light brightly for the world to see.

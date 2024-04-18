@@ -52,6 +52,17 @@ if __name__ == "__main__":
       print("Error: eleven_key.txt not found.")
       eleven_key = None
 
+
+
+    try:
+      with open("stability_key.txt", 'r') as file:
+        stability_key = file.read().strip()
+    except FileNotFoundError:
+      print("Error: eleven_key.txt not found.")
+      stability_key = None
+
+
+
 # Open the Eleven Labs website if the user wants a tutorial
     
     response = input("Do you want a tutorial? (yes/no): ").strip().lower()
@@ -106,12 +117,12 @@ if __name__ == "__main__":
     # Audio record
     record_audio()
     #Whisper transcription;
-    transcript = whisper_transcription()
+    transcript = whisper_transcription(openai_key)
     #affirmation generation
     nightly_txt = night_transcript_maker(transcript, str(openai_key)) 
     
     # Filename
-    input_string = text_maker(nightly_txt) 
+    input_string = text_maker(nightly_txt, openai_key) 
     def remove_whitespace(input_string):
       return input_string.replace(" ", "").replace("\t", "").replace("\n", "")
     
@@ -143,9 +154,9 @@ if __name__ == "__main__":
     looped_audio_filename = audio_looper(filename_meditate, 20)
     # stable ai prompts
     
-    visual_prompts = affirmation_visualizer(meditate_text, folder_name)
+    visual_prompts = affirmation_visualizer(meditate_text, folder_name, openai_key)
     print('prompts done')
-    prompt_refiner()
+    prompt_refiner(openai_key)
     textfilepath = './output_text_visual_refined.txt'
     # stable ai creations
     sanitized_prompts=process_prompts_from_file(textfilepath)
@@ -154,12 +165,12 @@ if __name__ == "__main__":
     user_input = input("Do you want a normal image slideshow meditation or one with sensory visuals? (Type 'yes' or 'no'): ")
 
     if 'yes' in user_input.lower():
-        visual_images = visualization_image_output_sensory(sanitized_prompts)
+        visual_images = visualization_image_output_sensory(sanitized_prompts, stability_key)
         print('Opening video creator')
         rename_images_in_folder_sensory()
         choice='y'
     elif 'no' in user_input.lower():
-        visual_images = visualization_image_output(sanitized_prompts)
+        visual_images = visualization_image_output(sanitized_prompts, stability_key)
         print('Opening video creator')
         rename_images_in_folder()
         choice='n'

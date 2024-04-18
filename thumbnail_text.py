@@ -1,15 +1,11 @@
 import openai
 from openai import OpenAI
 
-import openai 
-from openai import OpenAI
-client = OpenAI(
-    api_key='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',
-)
+
 import os
-def text_maker(text_content):
+def text_maker(text_content,key):
     print(text_content)
-    os.environ["OPENAI_API_KEY"] = "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"
+    client = OpenAI(api_key=key)
     class ChatCompletionMessage:
         def __init__(self, content, role, function_call=None, tool_calls=None):
             self.content = content

@@ -6,11 +6,11 @@ import time
 
 import openai 
 from openai import OpenAI
-client = OpenAI(
-    api_key='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',
-)
-def whisper_transcription():
-    openai.api_key = "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"
+
+
+def whisper_transcription(key):
+    openai.api_key = key
+    client = OpenAI(api_key=key)
     audio_file = open("recorded_audio.wav", "rb")
     transcript = client.audio.transcriptions.create(
     model="whisper-1", 

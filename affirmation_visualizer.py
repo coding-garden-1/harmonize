@@ -3,10 +3,9 @@ import os
 import openai
 from openai import OpenAI
 import time
-def affirmation_visualizer(transcript, folder_name):
+def affirmation_visualizer(transcript, folder_name, key):
     
     print(transcript)
-    os.environ["OPENAI_API_KEY"] = "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"
     class ChatCompletionMessage:
         def __init__(self, content, role, function_call=None, tool_calls=None):
             self.content = content
@@ -18,7 +17,7 @@ def affirmation_visualizer(transcript, folder_name):
             # Return only the text content
             return self.content
         # Initialize the OpenAI client
-    client = openai.OpenAI()
+    client = openai.OpenAI(api_key=key)
 
     # Your code for interacting with the OpenAI API goes here
     completion = client.chat.completions.create(

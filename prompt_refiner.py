@@ -3,9 +3,8 @@ import os
 import openai
 from openai import OpenAI
 import time
-def prompt_refiner():
-    
-    os.environ["OPENAI_API_KEY"] = "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"
+def prompt_refiner(key):
+    client = OpenAI(api_key=key)
     class ChatCompletionMessage:
         def __init__(self, content, role, function_call=None, tool_calls=None):
             self.content = content

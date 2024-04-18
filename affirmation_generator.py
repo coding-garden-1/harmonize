@@ -6,11 +6,11 @@ import time
 
 import openai 
 from openai import OpenAI
-client = OpenAI(
-    api_key='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',
-)
+
 def night_transcript_maker(transcript, key):
-    
+    client = OpenAI(
+        api_key=key,
+    )
     os.environ["OPENAI_API_KEY"] = key
     class ChatCompletionMessage:
         def __init__(self, content, role, function_call=None, tool_calls=None):
